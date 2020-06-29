@@ -1,0 +1,36 @@
+{
+  "name": "node-cli-starter",
+  "version": "0.0.1",
+  "description": "A starter project for creating CLI utilities in node",
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "webpack --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.prod.js && yarn build:executable",
+    "build:executable": "pkg ./build/app.js --out-path ./dist",
+    "check-types": "tsc",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "jest": "^26.1.0",
+    "pkg": "^4.4.9",
+    "prettier": "2.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "commander": "^5.1.0"
+  }
+}
