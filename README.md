@@ -35,5 +35,5 @@ yarn install
 
 ## TODO
 
-[] Allow the developer to specify the build targets for the executable
-[] CLI tool for scaffolding?
+- [ ] Allow the developer to specify the build targets for the executable
+- [ ] CLI tool for scaffolding?
