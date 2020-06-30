@@ -37,3 +37,4 @@ yarn install
 
 - [ ] Allow the developer to specify the build targets for the executable
 - [ ] CLI tool for scaffolding?
+- [ ] Organize the Webpack configs better
