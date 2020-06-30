@@ -11,7 +11,7 @@ Didn't really like the other starters, so I decided to create my own with the st
 ## Features
 
 - [TypeScript](https://github.com/Microsoft/TypeScript) for fancy type checking and [Babel](https://github.com/babel/babel) for compiling ES6 code, all bundled with [Webpack](https://github.com/webpack/webpack)
-- Linting and formatting with [ESLint](https://github.com/eslint/eslint) and [Prettier](https://github.com/prettier/prettier)
+- Linting and formatting with [ESLint](https://github.com/eslint/eslint) and formatting with [Prettier](https://github.com/prettier/prettier)
 - Building a single executable using [Pkg](https://github.com/vercel/pkg)
 - Testing with [Jest](https://github.com/facebook/jest)
 
@@ -29,6 +29,6 @@ yarn install
 
 - `build:dev` - builds the sources into a single file (`app.js`) into the `build` directory
 - `build:prod` - builds the sources and creates an executable file in the `dist` directory
-- `build:executable` - creates the executable from the compiled sources
+- `build:exe` - creates the executable from the compiled sources
 - `check-types` - runs the typescipt compiler to check for errors
 - `test` - run tests
