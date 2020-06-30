@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack --config webpack.config.dev.js",
-    "build:prod": "webpack --config webpack.config.prod.js && yarn build:exe",
+    "build:prod": "webpack --config webpack.config.prod.js && npm run build:exe",
     "build:exe": "pkg ./build/app.js --out-path ./dist",
     "check-types": "tsc",
     "test": "jest --coverage"

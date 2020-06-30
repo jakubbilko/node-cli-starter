@@ -32,3 +32,8 @@ yarn install
 - `build:exe` - creates the executable from the compiled sources
 - `check-types` - runs the typescipt compiler to check for errors
 - `test` - run tests
+
+## TODO
+
+[] Allow the developer to specify the build targets for the executable
+[] CLI tool for scaffolding?
