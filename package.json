@@ -1,6 +1,6 @@
 {
   "name": "node-cli-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A starter project for creating CLI utilities in node",
   "license": "MIT",
   "scripts": {
